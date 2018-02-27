@@ -5,6 +5,8 @@ set(CMAKE_CXX_STANDARD 11)
 
 include_directories(third-libs)
 
-file(GLOB_RECURSE LEARN_C 01-c/*.cc)
-
-add_executable(learn_project ${LEARN_C})
+# add_executable(learn_project main.cpp ${UTILS})
+add_subdirectory(utils)
+add_subdirectory(third-party/catch)
+add_subdirectory(01-c)
+add_subdirectory(04-algorithm)
