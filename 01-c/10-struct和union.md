@@ -15,7 +15,7 @@ cl 编译器: C requires that a struct or union has at least one member
 struct SoftArray
 {
   int len;
-  int array
+  char *p;
 };
 
 union 的使用受大小端的影响

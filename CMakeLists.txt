@@ -5,7 +5,6 @@ set(CMAKE_CXX_STANDARD 11)
 
 include_directories(third-libs)
 
-# add_executable(learn_project main.cpp ${UTILS})
 add_subdirectory(utils)
 add_subdirectory(third-party/catch)
 add_subdirectory(01-c)
